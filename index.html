@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Title</title>
+  <link rel="stylesheet" href="src/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <div class="content">
+    <div class="container">
+      <ol>
+        <li>
+          <h1>Marina Litueva</h1>
+          <svg class="icon">
+            <use xlink:href="src/icons/girl.svg#girl"></use>
+          </svg>
+        </li>
+        <li>
+          <h3 class="heading">Contacts:</h3>
+          <ul class="sub-menu">
+            <li class="item-submenu"><span><strong>email:&nbsp</strong></span><a
+                href="mailto:lituevam@gmail.com">lituevam@gmail.com</a></li>
+            <li class="item-submenu"><span><strong>iphone:&nbsp</strong>+375-29-80-151-80</span></li>
+            <li class="item-submenu"> <span><strong>skype:&nbsp</strong> marinalitueva</span></li>
+          </ul>
+        </li>
+        <li>
+          <p>During the course, I would like to study modern technologies for building web applications. I want to
+            improve layout and styling skills,to learn and to get experience in developing dynamic applications. My
+            strengths are the desire to develop, the ability to motivate myself, to learn quickly. I hope to show good
+            results and get an internship at EPAM.</p>
+        </li>
+        <li>
+          <h4 class="heading">Skills:</h4>
+          <p>Good knowledge of HTML (including Grid and Flex), CSS, Photoshop, basic knowledge of JavaScript. I am able
+            to typeset sites validly and cross-browser. Ability to work with CSS-SASS / SCSS preprocessor.</p>
+        </li>
+        <li class="ac-container">
+          <input id="ac-1" name="accordion-1" type="checkbox" />
+          <label for="ac-1">Code examples:</label>
+          <article class="ac-code">
+            <pre>.filtered-content {
+                  margin-top: 40px;
+                  }
+                  .grid {
+                    display: grid;
+                    grid-template-rows: 1fr 1fr ;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-row-gap: 32px;
+                    grid-column-gap: 40px;
+                    box-sizing: border-box;
+                    }
+                    
+                  .grid-item {
+                    position: relative;
+                    
+                    & > .btn {
+                      position: absolute;
+                      top: 62%;
+                      left: 50%;
+                      transform: translateX(-50%);
+                      z-index: $z-index-filtered;
+                            
+                    }
+                  } 
+          
+                  .grid-item-content {
+                    background: $color-background-filter-menu;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    justify-items: center;
+                    align-items: center;
+                    height: 130px;
+                    
+                    & > h4 {
+                      text-align: center;
+                    }
+                  }  
+                    
+                  @media (max-width: $mobile) {
+                    .grid {
+                    display: flex;
+                    lex-direction: column;
+                    }  
+                    
+                    .grid-item {
+                    margin-bottom: 32px;
+                    }
+                    
+                    .grid-item-content > h4 {
+                     font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (768 - 300)));
+                    }
+                  }
+                </pre>
+          </article>
+        </li>
+        <li>
+          <h4 class="heading">Experience:</h4>
+          <p>I have experience in developing web projects using the BEM methodology, CSS-SASS preprocessor and Gulp
+            project builder.</p>
+        </li>
+        <li>
+          <h4 class="heading">Education:</h4>
+          <ul class="sub-menu">
+            <li class="item-submenu"><span>Mogilev State Food University, chemical egineering</span></li>
+            <li class="item-submenu"><span>Mogilev State Food University, economist accountant</span>
+              <ul class="sub-menu">
+                <span class="courses">Courses:</span>
+                <li class="item-submenu"><span>SoloLearn</span></li>
+                <li class="item-submenu"><span>Codecademy</span></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h4 class="heading">English:</h4>
+          <p>Reading professional literature without a dictionary.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</body>
+
+</html>
