@@ -10,7 +10,7 @@
     My strengths are the desire to develop, the ability to motivate myself, to learn quickly.
     I hope to show good results and get an internship at EPAM.
 4. #### Skills:
-     ######Technologies stack:
+   ###### **Technologies stack**:
      * HTML5/CSS3     
      * JavaScript (ES5/ES6)
      * Ajax (Fetch)
@@ -20,7 +20,8 @@
      * GitHub
      * Photoshop/Figma
      * Gulp/Webpack
-     ######Tools:
+   
+   ###### **Tools**:
      * VS Code / Webstorm
      * Jira / Trello
      * Firebase
@@ -46,18 +47,20 @@
 6. #### Experience:
     ***
     I have commercial experience in developing web calculators. You can see it by link:
-   [calculator](https://calculator-1e570.firebaseapp.com/).
+   [calculator](https://calculator-1e570.firebaseapp.com/).  
+
     I have little experience in developing with Angular. Small project by link:
    [todo-list](https://todo-4fbe2.firebaseapp.com/todolist).
 
 7. #### Education:
     ***
-    *   Mogilev State Food University, chemical egineering
-    *   Mogilev State Food University, economist accountant
-    ###### Courses:
+    * Mogilev State Food University, chemical egineering
+    * Mogilev State Food University, economist accountant
+   
+   ###### **Courses**  
     * EPAM Training Center
     * SoloLearn
     * Codecademy
-9. #### English:
+8. #### English:
     ***  
    English level: A2+ (Pre-Intermediate)
